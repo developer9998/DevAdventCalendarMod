@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace DevAdventCalandarMod.Models
+namespace DevAdventCalendarMod.Models
 {
     [Serializable]
     public class Hand
     {
-        public GorillaTriggerColliderHandIndicator handIndicator { get; set; }
+        public GorillaTriggerColliderHandIndicator HandIndicator { get; set; }
         public bool HasObject { get; set; }
     }
 }

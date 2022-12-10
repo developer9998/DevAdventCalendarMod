@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace DevAdventCalandarMod.Models
+namespace DevAdventCalendarMod.Models
 {
     [Serializable]
     public class Box

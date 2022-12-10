@@ -1,9 +1,8 @@
 ﻿using HarmonyLib;
-using UnityEngine;
-using GorillaLocomotion;
 using System.Collections;
+using GorillaLocomotion;
 
-namespace DevAdventCalandarMod.AdventPatches.Patches
+namespace DevAdventCalendarMod.Patches
 {
     [HarmonyPatch(typeof(Player), "Awake")]
     internal class InitializationPatch

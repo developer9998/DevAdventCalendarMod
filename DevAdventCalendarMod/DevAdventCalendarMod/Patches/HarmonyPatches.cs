@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace DevAdventCalandarMod.AdventPatches
+namespace DevAdventCalendarMod.Patches
 {
     /// <summary>
     /// This class handles applying harmony patches to the game.
