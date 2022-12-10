@@ -69,6 +69,8 @@ namespace DevAdventCalendarMod
 
             DataLoader.LoadData();
 
+            if (DataLoader.currentData.ChocolatesPickedUp.Count != 0) chocolatesEaten += DataLoader.currentData.ChocolatesPickedUp.Count;
+
             leftHand = new Hand();
             leftHand.HandIndicator = GorillaTagger.Instance.transform.Find("TurnParent/LeftHandTriggerCollider").GetComponent<GorillaTriggerColliderHandIndicator>();
 
